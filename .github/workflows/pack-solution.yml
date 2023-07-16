@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: microsoft/powerplatform-actions/packsolution@v0
+      - uses: microsoft/powerplatform-actions/pack-solution@v0
         with:
           solution-file: out/contoso_university_core.zip
           solution-folder: contents
